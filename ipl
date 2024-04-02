@@ -1,0 +1,20 @@
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js"></script>
+<div id="oper"></div>
+<div id="vid"></div>
+<script>
+ player = new Clappr.Player({
+ source: "https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_Cricket_24x7_IDC/Fallback/master.m3u8",
+ mimeType: "application/x-mpegURL",
+   
+ watermark : 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg39RDef2_C2Z1xoHkC1OF6uZ1chf5gcqfhjcsdquB4lEAFmNXBmRvtSbBmSqg0lgchblulhLkUYopva0f9CjpspTULMS0pD4IYP2Q3zZcvfbFmzEgg70Ueqa59ZaaGBQnoybRh1nfQ7I4p_lkY_sPmSe-S2l8isMMmYZyKvmriedAn0KHtv15f3xJoDl2t/s3264/20240331_081055%281%29.png', position: 'top-right', watermarkLink: 'https://chat.whatsapp.com/ER15aGSpdncI272bxnFVse',
+   
+ poster: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1GRzb6mOB50-gDfxCCF2GjbXw8ezNOP0lrsvdiLuFFaBjugtIokP07lvXFRXz-fMxNoLEqjOiJQiStD_eg8-hLk7kkKWd0WsC-2oCrjV1pgZb-ZYrqOSYVX-LIb2CKi2ORK9M47UhNHV6P6BXermlBO_8fCrThINlbv2jqJhqbYuZq-khWEIPes_dy2rM/s3264/20240331_092855.jpg',
+   
+ autoPlay: false, 
+ height: "410",
+ width: "100%",
+ plugins: {"core": [LevelSelector]}, 
+ parentId: "#vid"});
+</script>
